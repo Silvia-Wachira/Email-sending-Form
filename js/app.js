@@ -18,5 +18,5 @@ function eventListeners() {
 //App Initialization
 function appInit() {
     //disable the send button on load
-    sendBtn.di
+    sendBtn.disabled = true
 }
