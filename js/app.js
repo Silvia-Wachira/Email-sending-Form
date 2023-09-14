@@ -31,5 +31,14 @@ function appInit() {
 
 //Validate the fields
 function validateField() {
-    console.log('')
+    let errors;
+
+    //Validate the length of the field
+    validateLength(this)
+}
+//Validate the length of the fields
+function validateLength(field) {
+    if(field.value.length > 0) {
+        field.style.borderBttomColor = 'green'
+    }
 }
