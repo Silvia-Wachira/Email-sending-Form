@@ -1,5 +1,5 @@
 //Variables 
-
+const sendBtn = document.getElementById('sendBtn')
 
 
 
@@ -12,4 +12,11 @@ function eventListeners() {
         document.addEventListener('DOMContentLoaded, appInit')
 }
 
+
 //Functions
+
+//App Initialization
+function appInit() {
+    //disable the send button on load
+    sendBtn.di
+}
