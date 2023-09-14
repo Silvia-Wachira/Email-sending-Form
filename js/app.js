@@ -13,6 +13,11 @@ eventListeners();
 function eventListeners() {
     //App Init
         document.addEventListener('DOMContentLoaded, appInit')
+
+        //Validate the forms
+        email.addEventListener('blur', validateField);
+        subject.addEventListener('blur', validateField);
+        message.addEventListener('blur', validateField);
 }
 
 
