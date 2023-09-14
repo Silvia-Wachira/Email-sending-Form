@@ -28,3 +28,8 @@ function appInit() {
     //disable the send button on load
     sendBtn.disabled = true;
 }
+
+//Validate the fields
+function validateField() {
+    console.log('')
+}
