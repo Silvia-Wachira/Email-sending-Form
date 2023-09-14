@@ -1,5 +1,8 @@
 //Variables 
-const sendBtn = document.getElementById('sendBtn')
+const sendBtn = document.getElementById('sendBtn'),
+      email = document.getElementById('email'),
+      subject = document.getElementById('subject'),
+      message = document.getElementById('message');
 
 
 
@@ -18,5 +21,5 @@ function eventListeners() {
 //App Initialization
 function appInit() {
     //disable the send button on load
-    sendBtn.disabled = true
+    sendBtn.disabled = true;
 }
