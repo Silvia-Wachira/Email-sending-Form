@@ -38,7 +38,7 @@ function validateField() {
 }
 //Validate the length of the fields
 function validateLength(field) {
-    if(field.value.length > 0) {
+    if(field.value.length > 0 ) {
         field.style.borderBottomColor = 'green'
         field.classList.remove('error')
     } else {
