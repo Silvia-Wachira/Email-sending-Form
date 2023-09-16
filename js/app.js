@@ -34,7 +34,10 @@ function validateField() {
     let errors;
 
     //Validate the length of the field
-    validateLength(this)
+    validateLength(this);
+
+    //Validate the email
+    cosole.log(this)
 }
 //Validate the length of the fields
 function validateLength(field) {
