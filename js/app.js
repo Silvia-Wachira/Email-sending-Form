@@ -49,3 +49,8 @@ function validateLength(field) {
         field.classList.add('error')
     }
 }
+//Validate email (cjecks for @ i the value)
+
+function validateEmail(field) {
+    
+}
