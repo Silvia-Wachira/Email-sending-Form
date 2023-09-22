@@ -40,6 +40,13 @@ function validateField() {
     if(this.type === 'email') {
         validateEmail(this);
     }
+
+    //Both will return errors , then check if there's any errors
+    errors = doc
+    //check that the inputd are not empty
+    if(email.value !== '' && message.value !== '') {
+
+    }
 }
 //Validate the length of the fields
 function validateLength(field) {
