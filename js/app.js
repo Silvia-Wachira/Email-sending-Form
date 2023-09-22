@@ -37,7 +37,7 @@ function validateField() {
     validateLength(this);
 
     //Validate the email
-    cosole.log(this)
+    console.log(this)
 }
 //Validate the length of the fields
 function validateLength(field) {
