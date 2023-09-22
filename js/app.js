@@ -37,7 +37,9 @@ function validateField() {
     validateLength(this);
 
     //Validate the email
-    console.log(this)
+    if(this.type === 'email') {
+        validateEmail(this);
+    }
 }
 //Validate the length of the fields
 function validateLength(field) {
