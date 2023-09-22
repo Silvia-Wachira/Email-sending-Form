@@ -2,8 +2,9 @@
 const sendBtn = document.getElementById('sendBtn'),
       email = document.getElementById('email'),
       subject = document.getElementById('subject'),
-      message = document.getElementById('message');
-      resetBtn = document.getElementById('resettn');
+      message = document.getElementById('message'),
+      resetBtn = document.getElementById('resebtn'),
+      sendEmailForm = document.getElementById('email-form')
 
 
 
@@ -82,5 +83,5 @@ function validateEmail(field) {
 
 //Reset the form
 function resetForm() {
-    
+    sendEmailForm.reset()
 }
