@@ -22,7 +22,7 @@ function eventListeners() {
 
         //Send email and reset button
 
-        resetBtn.addEventListener()
+        resetBtn.addEventListener('click', resetForm);
 }
 
 
@@ -78,4 +78,9 @@ function validateEmail(field) {
         field.style.borderBottomColor = 'red'
         field.classList.add('error')
     }
+}
+
+//Reset the form
+function resetForm() {
+    
 }
