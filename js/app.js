@@ -42,7 +42,7 @@ function validateField() {
     }
 
     //Both will return errors , then check if there's any errors
-    errors = doc
+    errors = document.querySelectorAll('.error')
     //check that the inputd are not empty
     if(email.value !== '' && message.value !== '') {
 
