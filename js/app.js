@@ -45,7 +45,10 @@ function validateField() {
     errors = document.querySelectorAll('.error')
     //check that the input are not empty
     if(email.value !== '' && subject.value !== '' && message.value !== '') {
-
+        if(errors.length === 0) {
+            // the button should be enabled
+            sendBtn.disabled = false
+        }
     }
 }
 //Validate the length of the fields
