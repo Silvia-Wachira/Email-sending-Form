@@ -5,7 +5,7 @@ const sendBtn = document.getElementById('sendBtn'),
       message = document.getElementById('message');
       resetBtn = document.getElementById('resettn');
 
-      
+
 
 //Event Listeners
 
@@ -19,6 +19,10 @@ function eventListeners() {
         email.addEventListener('blur', validateField);
         subject.addEventListener('blur', validateField);
         message.addEventListener('blur', validateField);
+
+        //Send email and reset button
+
+        resetBtn.addEventListener()
 }
 
 
