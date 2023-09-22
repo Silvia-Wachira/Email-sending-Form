@@ -3,8 +3,9 @@ const sendBtn = document.getElementById('sendBtn'),
       email = document.getElementById('email'),
       subject = document.getElementById('subject'),
       message = document.getElementById('message');
+      resetBtn = document.getElementById('resettn');
 
-
+      
 
 //Event Listeners
 
@@ -47,7 +48,7 @@ function validateField() {
     if(email.value !== '' && subject.value !== '' && message.value !== '') {
         if(errors.length === 0) {
             // the button should be enabled
-            sendBtn.disabled = false
+            sendBtn.disabled = false;
         }
     }
 }
