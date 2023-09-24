@@ -23,7 +23,7 @@ function eventListeners() {
 
         //Send email and reset button
 
-        sendBtn.addEventListener('submit', sendEmailForm)
+        sendBtn.addEventListener('submit', sendEmail)
         resetBtn.addEventListener('click', resetForm);
 }
 
@@ -34,6 +34,10 @@ function eventListeners() {
 function appInit() {
     //disable the send button on load
     sendBtn.disabled = true;
+}
+
+function sendEmail() {
+    
 }
 
 //Validate the fields
