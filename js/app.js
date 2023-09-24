@@ -28,7 +28,7 @@ function eventListeners() {
 }
 
 
-//Functions
+//Functions 
 
 //App Initialization
 function appInit() {
@@ -36,8 +36,8 @@ function appInit() {
     sendBtn.disabled = true;
 }
 
-function sendEmail() {
-    email.preventDefault();
+function sendEmail(e) {
+    e.preventDefault();
 
     //show the spinner
     const spinner = document.querySelector('#spinner')
