@@ -37,11 +37,17 @@ function appInit() {
 }
 
 function sendEmail() {
-    email.preventDefault()
+    email.preventDefault();
 
     //show the spinner
     const spinner = document.querySelector('#spinner')
     spinner.style.display = 'block';
+
+    //hide spinner then show  the email image
+    setTimeout(function() {
+    //hide the spinner
+
+    }, 3000 );
 }
 
 //Validate the fields
