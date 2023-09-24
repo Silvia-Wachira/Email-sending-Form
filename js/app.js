@@ -37,7 +37,7 @@ function appInit() {
 }
 
 function sendEmail() {
-    
+    email.preventDefault()
 }
 
 //Validate the fields
