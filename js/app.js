@@ -23,6 +23,7 @@ function eventListeners() {
 
         //Send email and reset button
 
+        sendBtn.addEventListener('submit', sendEmailForm)
         resetBtn.addEventListener('click', resetForm);
 }
 
