@@ -46,7 +46,7 @@ function sendEmail() {
     //hide spinner then show  the email image
     setTimeout(function() {
     //hide the spinner
-
+        spinner.style.display = 'none'
     }, 3000 );
 }
 
