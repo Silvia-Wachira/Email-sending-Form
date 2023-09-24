@@ -11,7 +11,7 @@ body {
 }
 #content::after {
     clear: both;
-    display: block;
+    display: block; 
     content: '';
 }
 header {
