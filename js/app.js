@@ -38,6 +38,10 @@ function appInit() {
 
 function sendEmail() {
     email.preventDefault()
+
+    //show the spinner
+    const spinner = document.querySelector('#spinner')
+    spinner.style.display = 'block';
 }
 
 //Validate the fields
