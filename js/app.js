@@ -59,6 +59,7 @@ function sendEmail(e) {
         //After 5 seconds , hide the image and reset the form
         setTimeout(function() {
             sendEmailForm.reset();
+            sendEmailImg.remove();
         }, 5000);
     }, 3000 );
 } 
