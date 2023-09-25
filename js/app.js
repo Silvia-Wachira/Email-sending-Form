@@ -46,13 +46,15 @@ function sendEmail(e) {
     //show the image
     const sendEmailImg = document.createElement('img')
     sendEmailImg.src = 'img/mail.gif';
+    sendEmailImg.style.display = 'block';
 
     //hide spinner then show  the email image
     setTimeout(function() {
     //hide the spinner
         spinner.style.display = 'none'
+
     }, 3000 );
-}
+} 
 
 //Validate the fields
 function validateField() {
