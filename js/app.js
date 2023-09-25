@@ -22,8 +22,7 @@ function eventListeners() {
         message.addEventListener('blur', validateField);
 
         //Send email and reset button
-
-        sendBtn.addEventListener('submit', sendEmail)
+        sendEmailForm.addEventListener('submit', sendEmail)
         resetBtn.addEventListener('click', resetForm);
 }
 
