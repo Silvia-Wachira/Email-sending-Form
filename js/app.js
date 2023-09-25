@@ -43,6 +43,9 @@ function sendEmail(e) {
     const spinner = document.querySelector('#spinner')
     spinner.style.display = 'block';
 
+    //show the image
+    const sendEmailImg = document.createElement('img')
+
     //hide spinner then show  the email image
     setTimeout(function() {
     //hide the spinner
