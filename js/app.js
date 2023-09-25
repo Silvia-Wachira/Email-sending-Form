@@ -53,6 +53,8 @@ function sendEmail(e) {
     //hide the spinner
         spinner.style.display = 'none'
 
+        //show the image
+        document.querySelector('#loaders').appendChild(sendEmailImg)
     }, 3000 );
 } 
 
