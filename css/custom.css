@@ -31,7 +31,7 @@ form {
 #loaders img {
     width: 150px;
     margin: 0 auto;
-    /* display: none;  */
+    display: none; 
 }
 #resetBtn {
     float: right;
