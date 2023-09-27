@@ -59,7 +59,7 @@ function sendEmail(e) {
         setTimeout(function() {
             sendEmailForm.reset();
             sendEmailImg.remove();
-        }, 5000);
+        });
     }, 3000 );
 } 
 
