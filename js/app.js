@@ -14,7 +14,7 @@ eventListeners();
 
 function eventListeners() {
     //App Init
-        document.addEventListener('DOMContentLoaded, appInit')
+        document.addEventListener('DOMContentLoaded', appInit)
 
         //Validate the forms
         email.addEventListener('blur', validateField);
