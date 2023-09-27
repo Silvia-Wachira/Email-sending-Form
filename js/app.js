@@ -55,7 +55,7 @@ function sendEmail(e) {
         //show the image
         document.querySelector('#loaders').appendChild(sendEmailImg)
 
-        //After 5 seconds , hide the image and reset the form
+        //After 3 seconds , hide the image and reset the form
         setTimeout(function() {
             sendEmailForm.reset();
             sendEmailImg.remove();
