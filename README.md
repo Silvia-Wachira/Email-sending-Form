@@ -9,7 +9,7 @@ This is a project creating an email form.
 # Set Up Instructions
 * Open terminal command line[ctrl+alt+t]<br>
 * Clone the repository<br>
-* cd Vallies real estate-website<br>
+* cd emails<br>
 * Open index.html file on your browser
 # Live page 
 # License
