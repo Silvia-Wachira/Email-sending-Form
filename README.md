@@ -1,4 +1,4 @@
-  # Vallie-s-Real-Estate
+# Email sending Form
 # Author
 Silvia Wachira 
 # Description
