@@ -2,7 +2,7 @@
 # Author
 Silvia Wachira 
 # Description
-This is a project creating an email form.
+This is a project creating an email sending form.
 # Technologies Used
 *HTML<br>
 *CSS
